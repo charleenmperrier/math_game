@@ -1,8 +1,8 @@
 class Player
-  attr_accessor :current_score
+  attr_accessor :current_score, :name
 
-  def initialize
-    
+  def initialize(n)
+    @name = n
     @current_score = 3
   end
 
