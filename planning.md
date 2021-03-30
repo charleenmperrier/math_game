@@ -14,8 +14,13 @@
 2. Methods & State for each
 
   Players:
-    state: which player (1 or 2) / name
-    method: switching the player?
+    state: 
+      - which player (1 or 2) / name
+      - current score
+    method: 
+      - switching the player?
+      - keeping track of lives
+    
 
   Question: 
     state
@@ -46,5 +51,6 @@
   Score:
     state
       - current score for each player
-
+comparative info
+- method to access player lives
     

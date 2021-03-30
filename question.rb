@@ -15,11 +15,4 @@ class Question
     @num1 + @num2
   end
 
-
 end
-
-# P1 = Question.new
-
-# puts P1.ask       # generates the question with 2 random nums
-# puts P1.answer    #sum of the two random numbers
-# # puts P1.answer(14)
